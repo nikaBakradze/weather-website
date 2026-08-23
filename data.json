@@ -1,0 +1,333 @@
+{
+  "app": {
+    "name": "Weatherly",
+    "unit": "celsius",
+    "windUnit": "km/h",
+    "defaultCity": "London"
+  },
+
+  "weatherConditions": {
+    "clear": {
+      "label": "CLEAR SKY",
+      "icon": "sun",
+      "background": "images/clear.jpeg",
+      "color": "#FFD54F"
+    },
+    "cloudy": {
+      "label": "PARTLY CLOUDY",
+      "icon": "cloud-sun",
+      "background": "images/cloudy.png",
+      "color": "#B0BEC5"
+    },
+    "rain": {
+      "label": "RAIN",
+      "icon": "cloud-rain",
+      "background": "images/rain.jpeg",
+      "color": "#64B5F6"
+    },
+    "drizzle": {
+      "label": "LIGHT DRIZZLE",
+      "icon": "cloud-drizzle",
+      "background": "images/drizzle.jpeg",
+      "color": "#81D4FA"
+    },
+    "snow": {
+      "label": "SNOW",
+      "icon": "snowflake",
+      "background": "images/snow.svg",
+      "color": "#E3F2FD"
+    },
+    "storm": {
+      "label": "THUNDERSTORM",
+      "icon": "cloud-lightning",
+      "background": "images/thunderstorm.jpeg",
+      "color": "#9575CD"
+    },
+    "fog": {
+      "label": "FOG",
+      "icon": "fog",
+      "background": "images/mist.jpeg",
+      "color": "#90A4AE"
+    }
+  },
+
+  "cities": [
+    {
+      "id": 1,
+      "name": "London",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "latitude": 51.5074,
+      "longitude": -0.1278,
+      "timezone": "Europe/London",
+
+      "current": {
+        "temperature": 16,
+        "feelsLike": 15,
+        "condition": "cloudy",
+        "description": "PARTLY CLOUDY",
+        "humidity": 58,
+        "cloudiness": 86,
+        "wind": 5,
+        "windDirection": "NW",
+        "icon": "cloud-sun",
+        "background": "images/cloudy.png"
+      },
+
+      "details": {
+        "tempMax": 19,
+        "tempMin": 15,
+        "humidity": 58,
+        "cloudiness": 86,
+        "wind": 5,
+        "precipitation": 20,
+        "visibility": 10
+      },
+
+      "forecast": [
+        {
+          "date": "2026-08-20",
+          "day": "Thursday",
+          "temperature": 19,
+          "tempMin": 15,
+          "tempMax": 19,
+          "condition": "snow",
+          "description": "SNOW",
+          "icon": "snowflake"
+        },
+        {
+          "date": "2026-08-21",
+          "day": "Friday",
+          "temperature": 18,
+          "tempMin": 14,
+          "tempMax": 18,
+          "condition": "cloudy",
+          "description": "PARTLY CLOUDY",
+          "icon": "cloud-sun"
+        },
+        {
+          "date": "2026-08-22",
+          "day": "Saturday",
+          "temperature": 17,
+          "tempMin": 13,
+          "tempMax": 18,
+          "condition": "rain",
+          "description": "LIGHT RAIN",
+          "icon": "cloud-rain"
+        },
+        {
+          "date": "2026-08-23",
+          "day": "Sunday",
+          "temperature": 20,
+          "tempMin": 15,
+          "tempMax": 20,
+          "condition": "clear",
+          "description": "CLEAR SKY",
+          "icon": "sun"
+        },
+        {
+          "date": "2026-08-24",
+          "day": "Monday",
+          "temperature": 21,
+          "tempMin": 16,
+          "tempMax": 21,
+          "condition": "cloudy",
+          "description": "PARTLY CLOUDY",
+          "icon": "cloud-sun"
+        },
+        {
+          "date": "2026-08-25",
+          "day": "Tuesday",
+          "temperature": 18,
+          "tempMin": 14,
+          "tempMax": 19,
+          "condition": "drizzle",
+          "description": "LIGHT DRIZZLE",
+          "icon": "cloud-drizzle"
+        },
+        {
+          "date": "2026-08-26",
+          "day": "Wednesday",
+          "temperature": 17,
+          "tempMin": 13,
+          "tempMax": 18,
+          "condition": "rain",
+          "description": "RAIN",
+          "icon": "cloud-rain"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "name": "Tbilisi",
+      "country": "Georgia",
+      "countryCode": "GE",
+      "latitude": 41.7151,
+      "longitude": 44.8271,
+      "timezone": "Asia/Tbilisi",
+
+      "current": {
+        "temperature": 27,
+        "feelsLike": 28,
+        "condition": "clear",
+        "description": "CLEAR SKY",
+        "humidity": 42,
+        "cloudiness": 12,
+        "wind": 9,
+        "windDirection": "E",
+        "icon": "sun",
+        "background": "images/clear.jpeg"
+      },
+
+      "details": {
+        "tempMax": 31,
+        "tempMin": 21,
+        "humidity": 42,
+        "cloudiness": 12,
+        "wind": 9,
+        "precipitation": 0,
+        "visibility": 10
+      },
+
+      "forecast": [
+        {
+          "date": "2026-08-20",
+          "day": "Thursday",
+          "temperature": 30,
+          "tempMin": 21,
+          "tempMax": 31,
+          "condition": "clear",
+          "description": "CLEAR SKY",
+          "icon": "sun"
+        },
+        {
+          "date": "2026-08-21",
+          "day": "Friday",
+          "temperature": 29,
+          "tempMin": 20,
+          "tempMax": 30,
+          "condition": "clear",
+          "description": "CLEAR SKY",
+          "icon": "sun"
+        },
+        {
+          "date": "2026-08-22",
+          "day": "Saturday",
+          "temperature": 27,
+          "tempMin": 19,
+          "tempMax": 28,
+          "condition": "cloudy",
+          "description": "PARTLY CLOUDY",
+          "icon": "cloud-sun"
+        },
+        {
+          "date": "2026-08-23",
+          "day": "Sunday",
+          "temperature": 28,
+          "tempMin": 20,
+          "tempMax": 30,
+          "condition": "clear",
+          "description": "CLEAR SKY",
+          "icon": "sun"
+        },
+        {
+          "date": "2026-08-24",
+          "day": "Monday",
+          "temperature": 26,
+          "tempMin": 19,
+          "tempMax": 27,
+          "condition": "rain",
+          "description": "LIGHT RAIN",
+          "icon": "cloud-rain"
+        },
+        {
+          "date": "2026-08-25",
+          "day": "Tuesday",
+          "temperature": 25,
+          "tempMin": 18,
+          "tempMax": 26,
+          "condition": "cloudy",
+          "description": "CLOUDY",
+          "icon": "cloud"
+        },
+        {
+          "date": "2026-08-26",
+          "day": "Wednesday",
+          "temperature": 28,
+          "tempMin": 20,
+          "tempMax": 29,
+          "condition": "clear",
+          "description": "CLEAR SKY",
+          "icon": "sun"
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "name": "Paris",
+      "country": "France",
+      "countryCode": "FR",
+      "latitude": 48.8566,
+      "longitude": 2.3522,
+      "timezone": "Europe/Paris",
+
+      "current": {
+        "temperature": 21,
+        "feelsLike": 21,
+        "condition": "rain",
+        "description": "LIGHT RAIN",
+        "humidity": 71,
+        "cloudiness": 78,
+        "wind": 11,
+        "windDirection": "W",
+        "icon": "cloud-rain",
+        "background": "images/rain.jpeg"
+      },
+
+      "details": {
+        "tempMax": 23,
+        "tempMin": 17,
+        "humidity": 71,
+        "cloudiness": 78,
+        "wind": 11,
+        "precipitation": 65,
+        "visibility": 8
+      },
+
+      "forecast": [
+        {
+          "date": "2026-08-20",
+          "day": "Thursday",
+          "temperature": 22,
+          "tempMin": 17,
+          "tempMax": 23,
+          "condition": "rain",
+          "description": "LIGHT RAIN",
+          "icon": "cloud-rain"
+        },
+        {
+          "date": "2026-08-21",
+          "day": "Friday",
+          "temperature": 24,
+          "tempMin": 18,
+          "tempMax": 25,
+          "condition": "cloudy",
+          "description": "PARTLY CLOUDY",
+          "icon": "cloud-sun"
+        },
+        {
+          "date": "2026-08-22",
+          "day": "Saturday",
+          "temperature": 25,
+          "tempMin": 18,
+          "tempMax": 26,
+          "condition": "clear",
+          "description": "CLEAR SKY",
+          "icon": "sun"
+        }
+      ]
+    }
+  ]
+}
